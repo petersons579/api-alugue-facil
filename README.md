@@ -13,9 +13,13 @@ Configure inicialmente a variaveis do banco de dados, lembrando que o sequelize 
 As variaveis do banco de dados estão localizadas no arquivo **src/config/database.js**:
 
 dialect: '', //mysql or postgres
+
 host: '', 
+
 username: '',
+
 password: '',
+
 database: '',
 
 Além disso adicione também ao arquivo **src/config/auth.json** a palavra secreta que servira coo base para a autenticação JWT.
